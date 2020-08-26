@@ -1,0 +1,267 @@
+                  /*footer section*/
+                  .footer-top
+                  {
+                    background: #111;
+                    padding:80px 0;
+                    color:white;
+                  }
+
+                  .segment-one h3
+                  {
+                    font-family: Courgette;
+                    color:#fff;
+                    letter-spacing: 3px;
+                    margin:10px 0;
+
+                  }
+
+                  .segment-two h3
+                  {
+                    font-family: poppins;
+                    margin:10px 0;
+                  }
+
+                  .segment-two h3:before
+                  {
+                    content: '|';
+                    color:#c65039;
+                    padding-right: 10px;
+                  }
+
+                  .segment-two a{
+                    background: #494848;
+                    width: 40px;
+                    height: 40px;
+                    display: inline-block;
+                    border-radius: 50%;
+                  }
+
+                  .segment-two a i{
+                    font-size: 20px;
+                    color: #fff;
+                    padding:10px;
+                  }
+
+                  .segment-three h3
+                  {
+                    font-family: poppins;
+                    margin:10px 0;
+                  }
+
+                  .segment-three h3:before
+                  {
+                    content: '|';
+                    color:#c65039;
+                    padding-right: 10px;
+                  }
+
+                  .segment-three ul li
+                  {
+                    
+                    line-height: 40px
+                  }
+
+                  .footer-bottom-text
+                  {
+                    text-align: center;
+                    background: #000;
+                    line-height: 75px;
+                    color:white;
+                  }
+
+                  /* Responsive css for footer section*/
+                  @media only screen and (min-width: 768px) and (max-width: 991px)
+                  {
+                    .md-mb-30
+                    {
+                      margin-bottom: 30px;
+                    }
+                  }
+
+                  @media only screen and (max-width: 767px)
+                  {
+                    .sm-mb-30
+                    {
+                      margin-bottom: 30px;
+                    }
+                    .footer-top
+                    {
+                      padding:50px 0;
+                    }
+                  }
+
+
+
+              /*Navbar Section*/
+              .navbar-nav a
+              {
+                font-family: poppins;
+                font-size: 18px;
+              }
+
+              
+
+              .navbar
+              {
+                background: rgba(0, 0, 0, .24);
+              }
+
+               .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link 
+               {
+                  color: #fff;
+               }
+               .navbar-light .navbar-nav .nav-link
+               {
+                color: #fff;
+               }
+
+               .navbar-nav
+               {
+                text-align: center;
+               }
+               .navbar-link
+               {
+                padding:.2rem 1rem;
+               }
+
+              .navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:hover
+               {
+                color: #f7aa1a  !important;
+               }
+              
+              
+
+              @media only screen and (max-width: 767px)
+              {
+                .navbar-nav.ml-auto
+                {
+                  background: rgba(0,0,0,0.5);
+                }
+                .navbar-toggler
+                {
+                  padding:1px 5px;
+                  font-size: 18px;
+                  line-height: 0.3;
+                  background: #fff;
+                }
+              }
+
+              /*image slider*/
+              .carousel-caption{
+                position:absolute;
+                top:50%;
+                transform: translateY(-50%);
+              }
+
+              .carousel-caption h1
+              {
+                font-size: 400%;
+                text-transform: uppercase;
+                text-shadow: 1px 1px 15px #000;
+              }
+
+              .carousel-caption p
+              {
+                font-size: 200%;
+                font-weight: 300;
+                text-shadow: 1px 1px 10px #000;
+              }
+
+
+
+            /*services*/
+            .section-top
+                  {
+                    background: #615f5c;
+                    padding:80px 0;
+                    color:white;
+                  }
+
+
+            .segment-onee h3
+                  {
+                    font-family: poppins;
+                    
+                    margin:10px 0;
+
+                  }
+
+                   .segment-onee h3:before
+                  {
+                    content: '|';
+                    color:#c65039;
+                    padding-right: 10px;
+                  }
+
+                  .segment-onee ul li
+                  {
+                    
+                    line-height: 40px;
+                  }
+
+
+                  .segment-twoo h3
+                  {
+                    font-family: poppins;
+                    margin:10px 0;
+                  }
+
+                  .segment-twoo h3:before
+                  {
+                    content: '|';
+                    color:#c65039;
+                    padding-right: 10px;
+                  }
+
+                  
+                  .segment-twoo ul li
+                  {
+                    
+                    line-height: 40px;
+                  }
+
+                  
+
+                  .segment-threee h3
+                  {
+                    font-family: poppins;
+                    margin:10px 0;
+                  }
+
+                  .segment-threee h3:before
+                  {
+                    content: '|';
+                    color:#c65039;
+                    padding-right: 10px;
+                  }
+
+                  .segment-threee ul li
+                  {
+                    
+                    line-height: 40px
+                  }
+
+
+                  /* Responsive css for footer section*/
+                  @media only screen and (min-width: 768px) and (max-width: 991px)
+                  {
+                    .md-mb-30
+                    {
+                      margin-bottom: 30px;
+                    }
+                  }
+
+                  @media only screen and (max-width: 767px)
+                  {
+                    .sm-mb-30
+                    {
+                      margin-bottom: 30px;
+                    }
+                    .section-top
+                    {
+                      padding:50px 0;
+                    }
+                  }
+
+
+               
